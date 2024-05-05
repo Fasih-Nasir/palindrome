@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- Task For Doing In Class:
+    1) Check The Maximum (largest) Letter Present In Array Or UserInput 
+                        OR    
+    1) Check The Minimum (Smallest) Letter Present In Array Or UserInput 
+                          
+    2) Check The Maximum (largest ) Number OR   (Second largest ) Number  Present In Array
+                         OR
+    2) Check The Minimum (Smallest ) Number OR   (Second Smallest )  Number Present In Array  -->
+    <script>
+    //    var name=prompt("Enter a Word To Find This Is Palindrome")
+var name=prompt("PALINDROME FINDER");
+// var c;
+for(let i=0;i<=name.length/2;i++){
+    // console.log(name[i])
+// console.log(name[name.length - 1 - i])
+if(name[i] !== name[name.length - 1 - i] ){
+    var msg= "IT IS NOT A PALIDORNE"; 
+    break;
+}
+else{
+    var msg1="Palidrone"
+break;
+}
+}
+
+alert(msg)
+alert(msg1)
+// alert(`${c}`+" Is A Palidnrone")
+// document.write(name[name.length-5])
+    // var len=name.length;
+    // document.write(len)
+    // document.write(name.slice(0,c/2)+"<BR>")
+    // document.write(name.slice(c))
+// for(let i=0;i<len/2;i++){
+    // document.write(i)
+    // document.write(name[i]+"<BR>")
+//                            5 -1 - 0
+                            //    5 -1 -1  
+        // document.write(name[ len -1 - i]+"<BR>")
+    // document.write(i)
+    // document.write(name[i]+"<BR>")
+    // document.write(name[name.length-1])
+// }
+//    var a=name.slice(0,name.length)
+//    var b=name.spl
+//    document.write(a,"<BR>",b)
+//    document.write(a == b)
+    // let o=name.slice(name.length)
+    // document.write(o)
+    //    var a=name[0];
+    //    var b=name[name.length-1]
+    // //    document.write(a == b)
+    //    for(let i=0;i<name.length;i++){
+    //     if(a == b){
+    //         document.write("P")
+    //     }
+    //     else{
+    //         document.write("Not")
+    //     }
+    //    }
+// var name="fasihnasir s s"
+// // var user="a"
+// var num=name.split("l").length-1
+// document.write(num)
+// 
+// let name = "my name is fasihnasir z"
+// let d=name.split(" ")
+// let ch=d[0]
+// // document.write(ch)
+// for(let i=0;i<name.length-1;i++){
+//     // let b=d[i]
+//     // document.write(d[i])
+//     if(ch > d[i]){
+//         ch=d[i]
+//     }
+// }
+
+// document.write(ch)
+// let numbers = [ 2, 3, 4, 10,11];
+// let maxNumber = numbers[numbers.length-1]
+// // document.write(maxNumber+"<BR>")
+// let secondMaxNumber = 0;
+// // let pr=prompt
+// // Find the maximum number
+// for (let i = 0; i < numbers.length; i++) {
+// //            1   <  0
+//     if (numbers[i] <= maxNumber || numbers[i] == maxNumber) {
+//         maxNumber = numbers[i];
+//     }
+// }
+//     // for (let i = 0; i < numbers.length; i++) {
+//         //     if (numbers[i] !== maxNumber && numbers[i] < secondMaxNumber) {
+// //     secondMaxNumber = numbers[i];
+// //     }
+// // }
+// document.write("<BR>",maxNumber)
+
+// // Find the second highest number that is not equal to the maximum number
+// for (let i = 0; i < numbers.length; i++) {
+//     //    1        not 11            11        > 0
+//     if (numbers[i] !== maxNumber && numbers[i] > secondMaxNumber) {
+//         secondMaxNumber = numbers[i];
+//     }
+//     document.write(numbers[i])
+// }
+
+// document.write("Second highest number:", secondMaxNumber);
+
+        // let b=name.replace("a","9")
+        // document.write(b)
+//         let string = "fasihnasir";
+// let maxChar = string[0]; // Pehla character ko sabse bada samjha jata hai
+
+// for (let i = 1; i < string.length; i++) {
+//     if (string[i] > maxChar) {
+//         maxChar = string[i];
+//     }
+// }
+
+// // Highlight karne ke liye <mark> tag ke saath concatenate karen
+// let highlightedString = string.replace(maxChar, `<mark>${maxChar}</mark>`);
+
+// document.write("Highlighted string:", highlightedString);
+// let numbers = ["f,a,s,i,h,n,a,s,i,r,z"];
+// let maxNumber = numbers[0]; // Pehle number ko sabse bada samjha jata hai
+
+// for (let i = 1; i < numbers.length; i++) {
+//     if (numbers[i] > maxNumber) {
+//         maxNumber = numbers[i];
+//     }
+// }
+
+
+// // document.write("Sabse bada number:", maxNumber);
+// let string = "fzsasihnasir";
+// let maxChar = string[0]; // Pehla character ko sabse bada samjha jata hai
+// //                   f
+// // document.write(maxChar+"<BR>")
+// for (let i = 1; i < string.length; i++) {
+//         //    f   > f
+//      //       s   > f
+//     if (string[i] > maxChar) {
+//         maxChar = string[i];
+//         // document.write(i)
+//         // return i;
+//         var c=i;
+//     }
+// }
+
+// document.write("Sabse bada character:", maxChar , c);
+
+    </script>
+</body>
+</html>
